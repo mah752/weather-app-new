@@ -100,10 +100,10 @@ function displayForecast(response) {
         <div class="weather-forecast-temperatures">
           <span class="weather-forecast-temperature-max"> ${Math.round(
             forecastDay.temp.max
-          )}°  | </span>
+          )}°C  | </span>
           <span class="weather-forecast-temperature-min"> ${Math.round(
             forecastDay.temp.min
-          )}° </span>
+          )}°C </span>
         </div>
       </div>
   `;
@@ -212,7 +212,7 @@ function displayFahrenheitTemperature(event) {
     celsiusLink.classList.remove("active");
     fahrenheitLink.classList.add("active");
     let fahrenheiTemperature = Math.round((celsiusTemperature * 9) / 5 + 32);
-    temperatureElement.innerHTML = `${fahrenheiTemperature}°`;
+    temperatureElement.innerHTML = `${fahrenheiTemperature}°F`;
 }
 
 function displayCelsiusTemperature(event) {
@@ -220,7 +220,7 @@ function displayCelsiusTemperature(event) {
     celsiusLink.classList.add("active");
     fahrenheitLink.classList.remove("active");
     let temperatureElement = document.querySelector("#temp-input");
-    temperatureElement.innerHTML = `${celsiusTemperature}°`;
+    temperatureElement.innerHTML = `${celsiusTemperature}°C`;
 }
 
 let celsiusTemperature = null;

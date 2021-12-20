@@ -160,3 +160,7 @@
                    margin: 0 auto;
                    text-align: center;
                }
+               
+               .weather-forecast-temperatures {
+                   color: #ffc0cb;
+               }

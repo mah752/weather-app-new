@@ -107,7 +107,7 @@
        .card {
            background-color: rgba(25, 144, 241, 0.2);
            overflow: hidden;
-           margin: 0 auto;
+           margin: 10px;
        }
        
        #dayforecast .forecast i,
@@ -136,7 +136,6 @@
            filter: brightness(60%);
        }
        
-       footer,
        #sourcecode {
            position: absolute;
            color: gold;

@@ -29,9 +29,12 @@
        
        h2 {
            font-size: 15px;
+           color: #ffc0cb;
        }
        
-       #city-input {
+       #city-input,
+       #temp-input,
+       #forecast-input {
            color: #ffc0cb;
            font-size: 20px;
        }
@@ -137,10 +140,8 @@
        }
        
        #sourcecode {
-           position: absolute;
            color: gold;
            position: fixed;
            bottom: 0px;
-           width: 400px;
            text-align: center;
        }

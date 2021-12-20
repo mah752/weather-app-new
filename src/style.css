@@ -141,8 +141,8 @@
        
        #sourcecode {
            color: gold;
-           position: fixed;
-           bottom: 0px;
+           position: absolute;
+           bottom: 0;
            text-align: center;
        }
        

@@ -145,3 +145,8 @@
            bottom: 0px;
            text-align: center;
        }
+       
+       .weather-forecast {
+           text-align: center;
+           border: 1px #ffc0cb;
+       }

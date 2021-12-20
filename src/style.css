@@ -149,4 +149,5 @@
        .weather-forecast {
            text-align: center;
            border: 1px #ffc0cb;
+           font-size: 15px;
        }

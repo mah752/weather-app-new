@@ -173,7 +173,7 @@ function displayWeather(response) {
     let temperatureElement = document.querySelector("#temp-input");
     temperature = Math.round(response.data.main.temp);
     celsiusTemperature = temperature;
-    temperatureElement.innerHTML = `${temperature}°`;
+    temperatureElement.innerHTML = `${temperature}°C`;
 
     let currentCity = response.data.name;
     let displaycurrentCity = document.querySelector("#city-input");

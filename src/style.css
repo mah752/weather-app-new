@@ -139,13 +139,6 @@
                    filter: brightness(60%);
                }
                
-               #sourcecode a {
-                   color: gold;
-                   position: absolute;
-                   bottom: 0;
-                   text-align: center;
-               }
-               
                .weather-forecast {
                    text-align: center;
                    border: 1px #ffc0cb;
@@ -153,7 +146,6 @@
                }
                
                footer {
-                   position: absolute;
                    bottom: 0;
                    text-align: center;
                    display: flex;

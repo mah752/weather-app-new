@@ -139,7 +139,7 @@
                    filter: brightness(60%);
                }
                
-               #sourcecode {
+               #sourcecode a {
                    color: gold;
                    position: absolute;
                    bottom: 0;

@@ -152,6 +152,9 @@
                        width: 100%;
                        /* Height of the footer*/
                        height: 40px;
+                   }
+                   
+                   #footer a {
                        text-align: center;
                    }
                    
